@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
 
                 when (val currentState = screenState.value) {
                     is ScreenState.Content -> {
-                        Log.d("MainActivity", currentState.barList.toString())
+                        Terminal(currentState.barList)
                     }
                     is ScreenState.Initial -> {
                     }
