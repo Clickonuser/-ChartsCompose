@@ -1,4 +1,4 @@
-package com.example.graphicscompose
+package com.example.graphicscompose.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             GraphicsComposeTheme {
-
+                Terminal()
             }
         }
     }
